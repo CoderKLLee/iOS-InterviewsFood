@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768290D22339F1CA0005B943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768290D12339F1CA0005B943 /* AppDelegate.m */; };
+		768290D52339F1CA0005B943 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768290D42339F1CA0005B943 /* ViewController.m */; };
+		768290D82339F1CA0005B943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768290D62339F1CA0005B943 /* Main.storyboard */; };
+		768290DA2339F1CC0005B943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768290D92339F1CC0005B943 /* Assets.xcassets */; };
+		768290DD2339F1CC0005B943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768290DB2339F1CC0005B943 /* LaunchScreen.storyboard */; };
+		768290E02339F1CC0005B943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 768290DF2339F1CC0005B943 /* main.m */; };
+		768290EA2339F1CC0005B943 /* TouchEventDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768290E92339F1CC0005B943 /* TouchEventDemoTests.m */; };
+		768290F52339F1CC0005B943 /* TouchEventDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768290F42339F1CC0005B943 /* TouchEventDemoUITests.m */; };
+		768291042339F7520005B943 /* KLEnlargeRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 768291032339F7520005B943 /* KLEnlargeRangeButton.m */; };
+		769E2E00233B358700C0CD66 /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = 769E2DF4233B358700C0CD66 /* AView.m */; };
+		769E2E01233B358700C0CD66 /* FView.m in Sources */ = {isa = PBXBuildFile; fileRef = 769E2DF7233B358700C0CD66 /* FView.m */; };
+		769E2E02233B358700C0CD66 /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = 769E2DF8233B358700C0CD66 /* CView.m */; };
+		769E2E03233B358700C0CD66 /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 769E2DFA233B358700C0CD66 /* DView.m */; };
+		769E2E04233B358700C0CD66 /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = 769E2DFB233B358700C0CD66 /* BView.m */; };
+		769E2E05233B358700C0CD66 /* EView.m in Sources */ = {isa = PBXBuildFile; fileRef = 769E2DFE233B358700C0CD66 /* EView.m */; };
+		769E2E0B233B365900C0CD66 /* KLEnlargeRangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769E2E0A233B365900C0CD66 /* KLEnlargeRangeViewController.m */; };
+		769E2E0F233B369900C0CD66 /* KLHitTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769E2E0D233B369900C0CD66 /* KLHitTestingViewController.m */; };
+		769E2E10233B369900C0CD66 /* KLHitTestingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769E2E0E233B369900C0CD66 /* KLHitTestingViewController.xib */; };
+		769E2E13233B3D4600C0CD66 /* KLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 769E2E12233B3D4600C0CD66 /* KLWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		768290E62339F1CC0005B943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768290C52339F1CA0005B943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768290CC2339F1CA0005B943;
+			remoteInfo = TouchEventDemo;
+		};
+		768290F12339F1CC0005B943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768290C52339F1CA0005B943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768290CC2339F1CA0005B943;
+			remoteInfo = TouchEventDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		768290CD2339F1CA0005B943 /* TouchEventDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchEventDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		768290D02339F1CA0005B943 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		768290D12339F1CA0005B943 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		768290D32339F1CA0005B943 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		768290D42339F1CA0005B943 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		768290D72339F1CA0005B943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		768290D92339F1CC0005B943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		768290DC2339F1CC0005B943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		768290DE2339F1CC0005B943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768290DF2339F1CC0005B943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		768290E52339F1CC0005B943 /* TouchEventDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchEventDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768290E92339F1CC0005B943 /* TouchEventDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchEventDemoTests.m; sourceTree = "<group>"; };
+		768290EB2339F1CC0005B943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768290F02339F1CC0005B943 /* TouchEventDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchEventDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768290F42339F1CC0005B943 /* TouchEventDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchEventDemoUITests.m; sourceTree = "<group>"; };
+		768290F62339F1CC0005B943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768291022339F7520005B943 /* KLEnlargeRangeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLEnlargeRangeButton.h; sourceTree = "<group>"; };
+		768291032339F7520005B943 /* KLEnlargeRangeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLEnlargeRangeButton.m; sourceTree = "<group>"; };
+		769E2DF4233B358700C0CD66 /* AView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
+		769E2DF5233B358700C0CD66 /* BView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		769E2DF6233B358700C0CD66 /* FView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FView.h; sourceTree = "<group>"; };
+		769E2DF7233B358700C0CD66 /* FView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FView.m; sourceTree = "<group>"; };
+		769E2DF8233B358700C0CD66 /* CView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
+		769E2DF9233B358700C0CD66 /* DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DView.h; sourceTree = "<group>"; };
+		769E2DFA233B358700C0CD66 /* DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
+		769E2DFB233B358700C0CD66 /* BView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		769E2DFC233B358700C0CD66 /* CView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		769E2DFD233B358700C0CD66 /* EView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EView.h; sourceTree = "<group>"; };
+		769E2DFE233B358700C0CD66 /* EView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EView.m; sourceTree = "<group>"; };
+		769E2DFF233B358700C0CD66 /* AView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
+		769E2E09233B365900C0CD66 /* KLEnlargeRangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLEnlargeRangeViewController.h; sourceTree = "<group>"; };
+		769E2E0A233B365900C0CD66 /* KLEnlargeRangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLEnlargeRangeViewController.m; sourceTree = "<group>"; };
+		769E2E0C233B369900C0CD66 /* KLHitTestingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLHitTestingViewController.h; sourceTree = "<group>"; };
+		769E2E0D233B369900C0CD66 /* KLHitTestingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLHitTestingViewController.m; sourceTree = "<group>"; };
+		769E2E0E233B369900C0CD66 /* KLHitTestingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KLHitTestingViewController.xib; sourceTree = "<group>"; };
+		769E2E11233B3D4600C0CD66 /* KLWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLWindow.h; sourceTree = "<group>"; };
+		769E2E12233B3D4600C0CD66 /* KLWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768290CA2339F1CA0005B943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768290E22339F1CC0005B943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768290ED2339F1CC0005B943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768290C42339F1CA0005B943 = {
+			isa = PBXGroup;
+			children = (
+				768290CF2339F1CA0005B943 /* TouchEventDemo */,
+				768290E82339F1CC0005B943 /* TouchEventDemoTests */,
+				768290F32339F1CC0005B943 /* TouchEventDemoUITests */,
+				768290CE2339F1CA0005B943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		768290CE2339F1CA0005B943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768290CD2339F1CA0005B943 /* TouchEventDemo.app */,
+				768290E52339F1CC0005B943 /* TouchEventDemoTests.xctest */,
+				768290F02339F1CC0005B943 /* TouchEventDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768290CF2339F1CA0005B943 /* TouchEventDemo */ = {
+			isa = PBXGroup;
+			children = (
+				769E2DF3233B355C00C0CD66 /* EnlargeRange */,
+				769E2DF2233B354700C0CD66 /* HitTesting */,
+				768290D02339F1CA0005B943 /* AppDelegate.h */,
+				768290D12339F1CA0005B943 /* AppDelegate.m */,
+				769E2E11233B3D4600C0CD66 /* KLWindow.h */,
+				769E2E12233B3D4600C0CD66 /* KLWindow.m */,
+				768290D32339F1CA0005B943 /* ViewController.h */,
+				768290D42339F1CA0005B943 /* ViewController.m */,
+				768290D62339F1CA0005B943 /* Main.storyboard */,
+				768290D92339F1CC0005B943 /* Assets.xcassets */,
+				768290DB2339F1CC0005B943 /* LaunchScreen.storyboard */,
+				768290DE2339F1CC0005B943 /* Info.plist */,
+				768290DF2339F1CC0005B943 /* main.m */,
+			);
+			path = TouchEventDemo;
+			sourceTree = "<group>";
+		};
+		768290E82339F1CC0005B943 /* TouchEventDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				768290E92339F1CC0005B943 /* TouchEventDemoTests.m */,
+				768290EB2339F1CC0005B943 /* Info.plist */,
+			);
+			path = TouchEventDemoTests;
+			sourceTree = "<group>";
+		};
+		768290F32339F1CC0005B943 /* TouchEventDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				768290F42339F1CC0005B943 /* TouchEventDemoUITests.m */,
+				768290F62339F1CC0005B943 /* Info.plist */,
+			);
+			path = TouchEventDemoUITests;
+			sourceTree = "<group>";
+		};
+		769E2DF2233B354700C0CD66 /* HitTesting */ = {
+			isa = PBXGroup;
+			children = (
+				769E2DFF233B358700C0CD66 /* AView.h */,
+				769E2DF4233B358700C0CD66 /* AView.m */,
+				769E2DF5233B358700C0CD66 /* BView.h */,
+				769E2DFB233B358700C0CD66 /* BView.m */,
+				769E2DFC233B358700C0CD66 /* CView.h */,
+				769E2DF8233B358700C0CD66 /* CView.m */,
+				769E2DF9233B358700C0CD66 /* DView.h */,
+				769E2DFA233B358700C0CD66 /* DView.m */,
+				769E2DFD233B358700C0CD66 /* EView.h */,
+				769E2DFE233B358700C0CD66 /* EView.m */,
+				769E2DF6233B358700C0CD66 /* FView.h */,
+				769E2DF7233B358700C0CD66 /* FView.m */,
+				769E2E0C233B369900C0CD66 /* KLHitTestingViewController.h */,
+				769E2E0D233B369900C0CD66 /* KLHitTestingViewController.m */,
+				769E2E0E233B369900C0CD66 /* KLHitTestingViewController.xib */,
+			);
+			path = HitTesting;
+			sourceTree = "<group>";
+		};
+		769E2DF3233B355C00C0CD66 /* EnlargeRange */ = {
+			isa = PBXGroup;
+			children = (
+				768291022339F7520005B943 /* KLEnlargeRangeButton.h */,
+				768291032339F7520005B943 /* KLEnlargeRangeButton.m */,
+				769E2E09233B365900C0CD66 /* KLEnlargeRangeViewController.h */,
+				769E2E0A233B365900C0CD66 /* KLEnlargeRangeViewController.m */,
+			);
+			path = EnlargeRange;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768290CC2339F1CA0005B943 /* TouchEventDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768290F92339F1CC0005B943 /* Build configuration list for PBXNativeTarget "TouchEventDemo" */;
+			buildPhases = (
+				768290C92339F1CA0005B943 /* Sources */,
+				768290CA2339F1CA0005B943 /* Frameworks */,
+				768290CB2339F1CA0005B943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchEventDemo;
+			productName = TouchEventDemo;
+			productReference = 768290CD2339F1CA0005B943 /* TouchEventDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		768290E42339F1CC0005B943 /* TouchEventDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768290FC2339F1CC0005B943 /* Build configuration list for PBXNativeTarget "TouchEventDemoTests" */;
+			buildPhases = (
+				768290E12339F1CC0005B943 /* Sources */,
+				768290E22339F1CC0005B943 /* Frameworks */,
+				768290E32339F1CC0005B943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768290E72339F1CC0005B943 /* PBXTargetDependency */,
+			);
+			name = TouchEventDemoTests;
+			productName = TouchEventDemoTests;
+			productReference = 768290E52339F1CC0005B943 /* TouchEventDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		768290EF2339F1CC0005B943 /* TouchEventDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768290FF2339F1CC0005B943 /* Build configuration list for PBXNativeTarget "TouchEventDemoUITests" */;
+			buildPhases = (
+				768290EC2339F1CC0005B943 /* Sources */,
+				768290ED2339F1CC0005B943 /* Frameworks */,
+				768290EE2339F1CC0005B943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768290F22339F1CC0005B943 /* PBXTargetDependency */,
+			);
+			name = TouchEventDemoUITests;
+			productName = TouchEventDemoUITests;
+			productReference = 768290F02339F1CC0005B943 /* TouchEventDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768290C52339F1CA0005B943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KL;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kairon;
+				TargetAttributes = {
+					768290CC2339F1CA0005B943 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					768290E42339F1CC0005B943 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 768290CC2339F1CA0005B943;
+					};
+					768290EF2339F1CC0005B943 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 768290CC2339F1CA0005B943;
+					};
+				};
+			};
+			buildConfigurationList = 768290C82339F1CA0005B943 /* Build configuration list for PBXProject "TouchEventDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768290C42339F1CA0005B943;
+			productRefGroup = 768290CE2339F1CA0005B943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768290CC2339F1CA0005B943 /* TouchEventDemo */,
+				768290E42339F1CC0005B943 /* TouchEventDemoTests */,
+				768290EF2339F1CC0005B943 /* TouchEventDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768290CB2339F1CA0005B943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769E2E10233B369900C0CD66 /* KLHitTestingViewController.xib in Resources */,
+				768290DD2339F1CC0005B943 /* LaunchScreen.storyboard in Resources */,
+				768290DA2339F1CC0005B943 /* Assets.xcassets in Resources */,
+				768290D82339F1CA0005B943 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768290E32339F1CC0005B943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768290EE2339F1CC0005B943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768290C92339F1CA0005B943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768290D52339F1CA0005B943 /* ViewController.m in Sources */,
+				769E2E03233B358700C0CD66 /* DView.m in Sources */,
+				769E2E05233B358700C0CD66 /* EView.m in Sources */,
+				768290E02339F1CC0005B943 /* main.m in Sources */,
+				769E2E0F233B369900C0CD66 /* KLHitTestingViewController.m in Sources */,
+				769E2E13233B3D4600C0CD66 /* KLWindow.m in Sources */,
+				769E2E04233B358700C0CD66 /* BView.m in Sources */,
+				769E2E0B233B365900C0CD66 /* KLEnlargeRangeViewController.m in Sources */,
+				769E2E02233B358700C0CD66 /* CView.m in Sources */,
+				768290D22339F1CA0005B943 /* AppDelegate.m in Sources */,
+				769E2E01233B358700C0CD66 /* FView.m in Sources */,
+				769E2E00233B358700C0CD66 /* AView.m in Sources */,
+				768291042339F7520005B943 /* KLEnlargeRangeButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768290E12339F1CC0005B943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768290EA2339F1CC0005B943 /* TouchEventDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768290EC2339F1CC0005B943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768290F52339F1CC0005B943 /* TouchEventDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		768290E72339F1CC0005B943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768290CC2339F1CA0005B943 /* TouchEventDemo */;
+			targetProxy = 768290E62339F1CC0005B943 /* PBXContainerItemProxy */;
+		};
+		768290F22339F1CC0005B943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768290CC2339F1CA0005B943 /* TouchEventDemo */;
+			targetProxy = 768290F12339F1CC0005B943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		768290D62339F1CA0005B943 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768290D72339F1CA0005B943 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		768290DB2339F1CC0005B943 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768290DC2339F1CC0005B943 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		768290F72339F1CC0005B943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		768290F82339F1CC0005B943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768290FA2339F1CC0005B943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V84XMTA7Y;
+				INFOPLIST_FILE = TouchEventDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kairon.TouchEventDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		768290FB2339F1CC0005B943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V84XMTA7Y;
+				INFOPLIST_FILE = TouchEventDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kairon.TouchEventDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		768290FD2339F1CC0005B943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V84XMTA7Y;
+				INFOPLIST_FILE = TouchEventDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kairon.TouchEventDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchEventDemo.app/TouchEventDemo";
+			};
+			name = Debug;
+		};
+		768290FE2339F1CC0005B943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V84XMTA7Y;
+				INFOPLIST_FILE = TouchEventDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kairon.TouchEventDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchEventDemo.app/TouchEventDemo";
+			};
+			name = Release;
+		};
+		768291002339F1CC0005B943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V84XMTA7Y;
+				INFOPLIST_FILE = TouchEventDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kairon.TouchEventDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TouchEventDemo;
+			};
+			name = Debug;
+		};
+		768291012339F1CC0005B943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V84XMTA7Y;
+				INFOPLIST_FILE = TouchEventDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kairon.TouchEventDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TouchEventDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768290C82339F1CA0005B943 /* Build configuration list for PBXProject "TouchEventDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768290F72339F1CC0005B943 /* Debug */,
+				768290F82339F1CC0005B943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768290F92339F1CC0005B943 /* Build configuration list for PBXNativeTarget "TouchEventDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768290FA2339F1CC0005B943 /* Debug */,
+				768290FB2339F1CC0005B943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768290FC2339F1CC0005B943 /* Build configuration list for PBXNativeTarget "TouchEventDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768290FD2339F1CC0005B943 /* Debug */,
+				768290FE2339F1CC0005B943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768290FF2339F1CC0005B943 /* Build configuration list for PBXNativeTarget "TouchEventDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768291002339F1CC0005B943 /* Debug */,
+				768291012339F1CC0005B943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768290C52339F1CA0005B943 /* Project object */;
+}
